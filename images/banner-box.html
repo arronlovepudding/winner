@@ -1,0 +1,243 @@
+<div class="banner_n">
+        <!--  banner cms start  -->
+ <div class="banner_wrap has-dots" style="overflow: hidden; width: 100%; height: 380px;">
+  <ul class="pic_show">
+          <li style="display: none;"><a href="http://d.elong.cn/pcgq150918" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150918_banner1.jpg) no-repeat center bottom;"></a></li>
+          <li style="display: none;"><a href="http://d.elong.cn/syms" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150923_banner1.jpg) no-repeat center bottom;"></a></li>
+          <li style="display: none;"><a href="http://d.elong.cn/pcrjxxn150918" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150921_banner2.jpg) no-repeat center bottom;"></a></li>
+          <li style="display: none;"><a href="http://d.elong.cn/pcgqbgy150915" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150915_banner3.jpg) no-repeat center bottom;"></a></li>            
+          <li style="display: none;"><a href="http://trip.elong.com/event/gtec2015/" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150921_banner5.jpg) no-repeat center bottom;"></a></li> 
+          <li style="display: list-item;"><a href="http://d.elong.cn/pchtyx150917" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150917_banner5.jpg) no-repeat center bottom;"></a></li>    
+          <li style="display: none;"><a href="http://d.elong.cn/9997" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150917_banner6.jpg) no-repeat center bottom;"></a></li> 
+          <li style="display: none;"><a href="http://about.58.com/fqz/index.html?utm_source=market&amp;spm=b-31580022738699-pe-f-829.hao360_101" target="_blank" style="background:url(http://img.elongstatic.com/index/bannerwrap/20150813_banner4.jpg) no-repeat center bottom;"></a></li>
+  </ul>
+ <ol class="dots"><li class="dot">1</li><li class="dot">2</li><li class="dot">3</li><li class="dot">4</li><li class="dot">5</li><li class="dot active">6</li><li class="dot">7</li><li class="dot">8</li></ol></div>
+        <!--big search start-->
+        <div class="all_search wrap1000">
+            <div class="wrap1000">
+                <div class="all_search_wrap">
+                    <div class="cate_channel">
+                        <ul class="left" id="searchTabs">
+                            <li class="on" index="0"><span><i class="ei_icon icon020"></i>酒店</span></li>
+                            <li index="1"><span><i class="ei_icon icon021"></i>机票</span></li>
+                            <li index="2"><span><i class="ei_icon icon022"></i>火车票</span></li>
+                            <li index="3" class="last"><span><i class="ei_icon icon026"></i>手机版</span></li>
+                            <li class="emty"></li>
+                        </ul>
+                        <div class="cate_channel_option left">
+                            <!--酒店搜索-->
+                            <div class="wrap_ts cate_hotel" style="display: block;">
+                                <div class="title_tab clearfix" id="hotel_sub_tabs">
+                                    <span class="on" sub_index="0"><b>国内酒店</b><i></i></span> <span sub_index="1"><b>国际酒店</b><i></i></span>
+                                </div>
+                                <div class="keywords_wrap" id="subPanelHotel" panel="hotelSubPanel" style="display: block">
+                                    <dl class="clearfix">
+                                        <dt class="w60">目的地</dt>
+                                        <dd class="w332">
+                                            <input id="hotelCity" value="北京" type="text" class="input_text " datacheck=""></dd>
+                                    </dl>
+                                    <dl class="date_picker clearfix">
+                                        <dt class="w60">入住</dt>
+                                        <dd>
+                                           <label>
+                                            <input type="text" class="input_text w170" id="hotelCheckInDate" value="2015-09-25" method="txtHotelCheckInDate">
+                                            <i class="com_icondate"></i><span>明天</span>
+                                            </label>
+                                         </dd>
+                                        <dt class="w50">退房</dt>
+                                        <dd><label>
+                                            <input type="text" class="input_text w170" id="hotelCheckoutDate" value="2015-09-26" method="txtHotelCheckoutDate">
+                                            <i class="com_icondate"></i><span>后天</span>
+                                            </label>
+                                            </dd>
+                                    </dl>
+                                    <dl class="clearfix">
+                                        <dt class="w60">关键词</dt>
+                                        <dd class="w332">
+                                            <input type="text" method="place" value="请输入地标/商圈/景点" class="input_text c999" datacheck="" selectindex="-1"></dd>
+                                    </dl>
+                                    <div class="submit_wrap mt20">
+                                        <span class="search_btn mr10" action="search" method="searchHotel"><i class="com_iconsearch"></i>搜索</span> 
+                                         <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
+                                        <span class="search_map_btn" action="search" method="mapsearch"> <i class="com_iconmap"></i>地图搜索</span>
+                                    </div>
+                                </div>
+                                <div class="keywords_wrap" id="subPanelIHotel" panel="hotelSubPanel" style="display: none">
+                                    <dl class="clearfix">
+                                        <dt class="w60">目的地</dt>
+                                        <dd class="w332">
+                                            
+                                            <input id="ihotel_search_input_text" type="text" class="input_text c999" regioncnname="首尔" value="首尔" regionid="178308" regionenname="seoul(andvicinity)"></dd>
+
+                                    </dl>
+                                    <dl class="date_picker clearfix">
+                                        <dt class="w60">入住</dt>
+                                        <dd><label>
+                                            <input type="text" class="input_text w170" id="ihotelCheckInDate" method="txtiHotelCheckInDate" value="2015-09-27">
+                                            <i class="com_icondate"></i><span>周日</span>
+                                            </label>
+                                            </dd>
+                                        <dt class="w50">退房</dt>
+                                        <dd><label>
+                                            <input type="text" class="input_text w170" id="ihotelCheckoutDate" method="txtiHotelCheckoutDate" value="2015-09-28">
+                                            <i class="com_icondate"></i><span>周一</span>
+                                            </label>
+                                            </dd>
+                                    </dl>
+                                    <dl class="clearfix">
+                                        <dt class="w60">关键词</dt>
+                                        <dd class="w332">
+                                            <input type="text" id="ihotel_search_input_value" value="请输入地标/商圈/景点" class="input_text c999" datacheck=""></dd>
+                                    </dl>
+                                    <div class="submit_wrap mt20">
+                                        <span class="search_btn mr10" action="search" id="ihotel_searh_input_button"><i class="com_iconsearch"></i>搜索</span>
+                                        <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--酒店搜索-->
+                            <!--机票搜索-->
+                            <div class="wrap_ts cate_hotel cate_tricket" style="display: none;">
+                                <div class="title_tab clearfix" id="flight_sub_tabs">
+                                    <span class="on" sub_index="0"><b>国内机票</b><i></i></span> <span sub_index="1"><b>国际机票</b><i></i></span>
+                                </div>
+                                <div class="keywords_wrap" method="dlFlight" style="display:block;" panel="flightSubPanel">
+
+                                    <dl class="return_way clearfix">
+                                        <dt class="w60">航程类型</dt>
+                                        <dd>
+                                            <label>
+                                                <input type="radio" method="oneway" value="0" name="flighttype" checked="checked"><span>单程</span></label>
+                                            <label>
+                                                <input type="radio" method="round" value="1" name="flighttype"><span>往返</span></label>
+                                        </dd>
+                                    </dl>
+                                    <dl class="return_ct clearfix">
+                                        <dt class="w60">往返城市</dt>
+                                        <dd class="">
+                                            <input type="text" method="flightsrcCity" datacheck="" value="北京" cityname="beijing" citythreesign="BJS" class="input_text w170"></dd>
+                                        <dt class="w50">&nbsp;&nbsp;</dt>
+                                        <dd>
+                                            <input type="text" method="flightdestCity" value="上海" cityname="shanghai" citythreesign="SHA" datacheck="" class="input_text w170"></dd>
+                                        <span class="com_toupdatab" method="changeCity"></span>
+                                    </dl>
+                                    <dl class="date_picker clearfix">
+                                        <dt class="w60">去程</dt>
+                                        <dd>
+                                         <label>
+                                            <input type="text" class="input_text w170" id="flightstartdate" method="txtFlightStartDate" value="2015-09-25">
+                                            <i class="com_icondate"></i><span>明天</span>
+                                          </label>
+                                         </dd>
+                                        <dt class="w50">返程</dt>
+                                        <dd class="disable_s">
+                                         <label>
+                                            <input type="text" class="input_text w170 c999" value="yyyy-mm-dd" method="txtFlightEndDate" style="color: rgb(204, 204, 204);">
+                                            <i class="com_icondate"></i><span> </span>
+                                            </label>
+                                          </dd>
+                                    </dl>
+                                    <div class="submit_wrap mt20">
+                                        <span class="search_btn mr10" action="search" method="searchFlight"><i class="com_iconsearch"></i>搜索</span>
+                                         <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
+                                    </div>
+                                </div>
+                                <div class="keywords_wrap" method="dliFlight" style="display:none;" panel="flightSubPanel">
+
+                                    <dl class="return_way clearfix">
+                                        <dt class="w60">航程类型</dt>
+                                        <dd>
+                                            <label>
+                                                <input type="radio" method="ioneway" value="0" name="iflighttype"><span>单程</span></label>
+                                            <label>
+                                                <input type="radio" method="iround" value="1" name="iflighttype" checked="checked"><span>往返</span></label>
+                                        </dd>
+                                    </dl>
+                                    <dl class="return_ct clearfix">
+                                        <dt class="w60">往返城市</dt>
+                                        <dd class="">
+                                            <input type="text" class="input_text w170" method="iflightsrcCity" value="北京" cityname="北京" citythreesign="BJS" datacheck=""></dd>
+                                        <dt class="w50">&nbsp;&nbsp;</dt>
+                                        <dd>
+                                            <input type="text" class="input_text w170" method="iflightdestCity" value="香港" cityname="香港" citythreesign="HKG" datacheck=""></dd>
+                                        <span class="com_toupdatab" method="ichangeCity"></span>
+                                    </dl>
+                                    <dl class="date_picker clearfix">
+                                        <dt class="w60">去程</dt>
+                                        <dd>
+                                           <label>
+                                            <input type="text" class="input_text w170" method="txtiFlightStartDate" value="2015-09-27">
+                                            <i class="com_icondate"></i><span>周日</span>
+                                           </label>
+                                            </dd>
+                                        <dt class="w50">返程</dt>
+                                        <dd class="disable_s">
+                                        <label>
+                                            <input type="text" class="input_text w170" id="iflightstartdate" method="txtiFlightEndDate" value="yyyy-mm-dd" style="color: rgb(204, 204, 204);">
+                                            <i class="com_icondate"></i><span> </span>
+                                            </label>
+                                            </dd>
+                                    </dl>
+                                    <div class="submit_wrap mt20">
+                                        <span class="search_btn mr10" action="search" method="searchiFlight"><i class="com_iconsearch"></i>搜索</span>
+                                         <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--机票搜索-->
+                            <!--火车票搜索-->
+                            <div class="wrap_ts cate_hotel cate_train" style="display: none;">
+                                <div class="keywords_wrap pt20">
+                                    <dl class="return_ct clearfix">
+                                        <dt class="w60">往返城市</dt>
+                                        <dd class="">
+                                            <input type="text" class="input_text w170 c999" id="txtTrainSc" value="" datacheck="" cityname="中文/拼音/首字母" citynameen="中文/拼音/首字母"></dd>
+                                        <dt class="w50">&nbsp;&nbsp;</dt>
+                                        <dd>
+                                            <input type="text" class="input_text w170 c999" id="txtTrainEc" value="" datacheck="" cityname="中文/拼音/首字母" citynameen="中文/拼音/首字母"></dd>
+                                        <span class="com_toupdatab" id="spTrainSwap"></span>
+                                    </dl>
+                                    <dl class="date_picker clearfix">
+                                        <dt class="w60">出发日期</dt>
+                                        <dd><label>
+                                            <input type="text" class="input_text w170" id="txtTrainSd" value="2015-09-26" readonly="readonly">
+                                            <span>周六</span><i class="com_icondate"></i>
+                                            </label>
+                                            <div class="check_hasticket">
+                                                <label for="">
+                                                    <span id="chkIsMoveHighCar"><i></i>只看动车/高铁</span>
+                                                </label>
+                                                <label for="">
+                                                    <span id="chkIsMoveTicket"><i></i>只看有票</span>
+                                                </label>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                    <div class="submit_wrap mt20">
+                                        <span class="search_btn mr10" id="btnSearchTrain"><i class="com_iconsearch"></i>搜索</span>
+                                         <span class="search_btn mr10 search_btn_on" style="display: none;">搜索中...</span>
+                                    </div>
+                                    <dl class="hotcity_list">
+                  <dt>热门路线：</dt>
+                  <dd><a href="http://train.elong.com/beijingxi-xianbei.html" target="_blank">北京<i class="ei_icon"></i>西安</a></dd>
+                  <dd><a href="http://train.elong.com/shanghai-nanjing.html" target="_blank">上海<i class="ei_icon"></i>南京</a></dd>
+                  <dd><a href="http://train.elong.com/shenzhenpingshan-xiamenbei.html" target="_blank">深圳<i class="ei_icon"></i>厦门</a></dd>
+                  <dd><a href="http://train.elong.com/guangzhounan-shanghaihongqiao.html" target="_blank">广州<i class="ei_icon"></i>上海</a></dd>
+                 </dl>
+                                </div>
+                            </div>
+                            <div class="wrap_ts cate_hotel cate_mobile" style="display: none;">
+                                <div class="keywords_wrap pt20">
+                                    <div class="ew_code">
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--big search end-->
+    </div>
